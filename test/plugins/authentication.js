@@ -33,7 +33,7 @@ describe('authentication.js', function(){
     });
   });
 
-  it('should have a empty token', function(done){
+  it('should have an empty token', function(done){
     server.plugins.authentication.authenticate.validateFunc({}, function(err, isAuth, credentials){
       expect(err).to.not.be.ok;
       expect(isAuth).to.not.be.ok;
