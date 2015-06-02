@@ -1,0 +1,50 @@
+[
+  {
+    "_id": {"$oid": "b00000000000000000000001"},
+    "name": "Tubber Wares",
+    "type": "box",
+    "description": "Plastic tubberwares",
+    "lastMod": {"$date": 1431541082952},
+    "owner": {"$oid": "abcdefabcdefabcdefabcde2"},
+    "totalValue": 266.99,
+    "items": ["c00000000000000000000099", "c00000000000000000000098", "c00000000000000000000097"],
+    "currentLocation": "house1",
+    "currentRoom": "kitchen"
+  },
+  {
+    "_id": {"$oid": "b00000000000000000000001"},
+    "name": "Tubber Wares",
+    "type": "box",
+    "description": "Plastic tubberwares",
+    "lastMod": {"$date": 1431541082952},
+    "owner": {"$oid": "abcdefabcdefabcdefabcde2"},
+    "totalValue": 266.99,
+    "items": ["c00000000000000000000099", "c00000000000000000000098", "c00000000000000000000097"],
+    "currentLocation": "house1",
+    "currentRoom": "kitchen"
+  },
+  {
+    "_id": {"$oid": "b00000000000000000000001"},
+    "name": "Tubber Wares",
+    "type": "box",
+    "description": "Plastic tubberwares",
+    "lastMod": {"$date": 1431541082952},
+    "owner": {"$oid": "abcdefabcdefabcdefabcde2"},
+    "totalValue": 266.99,
+    "items": ["c00000000000000000000099", "c00000000000000000000098", "c00000000000000000000097"],
+    "currentLocation": "house1",
+    "currentRoom": "kitchen"
+  },
+  {
+    "_id": {"$oid": "b00000000000000000000001"},
+    "name": "Tubber Wares",
+    "type": "box",
+    "description": "Plastic tubberwares",
+    "lastMod": {"$date": 1431541082952},
+    "owner": {"$oid": "abcdefabcdefabcdefabcde2"},
+    "totalValue": 266.99,
+    "items": ["c00000000000000000000099", "c00000000000000000000098", "c00000000000000000000097"],
+    "currentLocation": "house1",
+    "currentRoom": "kitchen"
+  }
+]

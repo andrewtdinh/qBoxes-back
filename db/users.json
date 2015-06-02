@@ -1,0 +1,22 @@
+[
+  {
+    "_id": {"$oid": "abcdefabcdefabcdefabcde1"},
+    "firebaseId": "twitter:3",
+    "createdAt": {"$date": 1431541042952}
+  },
+  {
+    "_id": {"$oid": "abcdefabcdefabcdefabcde2"},
+    "firebaseId": "twitter:4",
+    "createdAt": {"$date": 1431541052952}
+  },
+  {
+    "_id": {"$oid": "abcdefabcdefabcdefabcde3"},
+    "firebaseId": "twitter:5",
+    "createdAt": {"$date": 1431541062952}
+  },
+  {
+    "_id": {"$oid": "abcdefabcdefabcdefabcde4"},
+    "firebaseId": "facebook:6",
+    "createdAt": {"$date": 1431541109988}
+  }
+]
