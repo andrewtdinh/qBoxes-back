@@ -39,10 +39,12 @@ describe('POST /profiles', function(){
       Mongoose.disconnect(done);
     });
   });
-  it('should create a new profile', function(done){
-    server.inject({method: 'POST', url: '/profiles', credentials: {firebaseId: 'a00000000000000000000001'}, payload: {firstName: 'test', lastName: 'dinh', photo: 'photostring', skills: ['Jade', 'Html'], exposure: ['a', 'b'], bio: 'Yeah', location: 'Fremont', interests: ['Nothing'], remote: true, relocate: false, locationPref: ['San Francisco'], education: 'Carleton', contact: {email: 'test@test.com'}, social: {github: 'mygitty'}}}, function(response){
+  it('should create a new container', function(done){
+    server.inject({method: 'POST', url: '/containers', credentials: {_id: 'abcdefabcdefabcdefabcde2'}, payload: {name: 'Brown UPS box', type: 'box', description: 'Contain stuff from the living room', owner: {$oid: 'abcdefabcdefabcdefabcde2'}, totalValue: 99.99, items: [], currentLocation: '', currentRoom: ''}}, function(response){
       expect(response.statusCode).to.equal(200);
-      expect(response.result.lastName).to.equal('dinh');
+      expect(response.result.name).to.equal('Brown UPS box');
+      expect(response.result.type).to.equal('box');
+      expect(response.result.items).to.have.length(0);
       done();
     });
   });
